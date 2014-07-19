@@ -119,7 +119,7 @@ jQuery(function($){
 	<button id="post_to_source" type="submit">Run ></button>
 	<div class="accordian">
 	<h3>
-  	<img class="list-icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-menu-3-icon.svg" alt="list icon"/>
+  	<img class="icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-menu-3-icon.svg" alt="list icon"/>
   	<a href="#">Libraries</a>
 	</h3>
 	<div class="library-block">
@@ -130,7 +130,7 @@ jQuery(function($){
 	</div>
 	<div class="accordian">
 	<h3>
-	  <img class="bookmark-icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-bookmark-19-icon.svg" alt="list-icon"/> 
+	  <img class="icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-bookmark-19-icon.svg" alt="list-icon"/> 
 	  <a href="#">Examples</a>
 	</h3>
 	<div class="codemirror_examples">
@@ -140,16 +140,21 @@ jQuery(function($){
 
 </div>
 <div class="the_containers ui-layout-center">
+  <button class="code-tab html">HTML</button>
+  <button class="code-tab js-tab right">The JS</button>
 	<div class="ui-layout-center">
 		<div class="container mirror_editor ui-layout-west">
+		  <img class="icon resize-icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-fullscreen-7-icon.svg" alt="full width icon"/>
 			<textarea id="the_html" name="the_html"></textarea>
 		</div>
 		<div class="container mirror_editor ui-layout-center tabular">
+		  <img class="icon resize-icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-fullscreen-7-icon.svg" alt="full width icon"/>
 			<textarea id="the_js" name="the_js"></textarea>
 		</div>
 	</div>
 	<div class="ui-layout-south">
-		<iframe name="the_source" id="the_source" class="ui-layout-west"></iframe>
+    <iframe name="the_source" id="the_source" class="ui-layout-west"></iframe>
+		<img class="icon resize-icon" src="https://52e0c58a3f83846f238f4db8c6c9baa27065e4f8.googledrive.com/host/0B9LVk4xbDIJTZ3BIZnBNWEtQdE0/iconmonstr-fullscreen-7-icon.svg" alt="full width icon"/>
 		<div class="container ui-layout-center">
 		<ul class="dev_messages">
 		</ul>
