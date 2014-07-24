@@ -3,7 +3,7 @@
   background:#000;
 }
 ::-webkit-scrollbar-thumb{
-  background: #349E38;
+  background: #505050;
 }
 ::selection{
   background:#349E38;
@@ -109,7 +109,7 @@ button{
   position: absolute;
   z-index: 33;
   background: #000;
-  border: 2px solid #526E9C;
+  border: 2px solid #0A7A00;
   margin-top: -13px;
 }
   .code-tab.html{
@@ -124,7 +124,7 @@ button{
 #the_source{background-color: #777;}
 
 .ui-layout-pane{
-  border: 1px solid #1D6920;
+  border: 1px solid #505050;
 }
 
 .ui-layout-toggler{
