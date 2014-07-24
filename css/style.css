@@ -1,12 +1,13 @@
 ::-webkit-scrollbar{
   width:24px;
-  background:#fafafa;
+  background:#000;
 }
 ::-webkit-scrollbar-thumb{
-  background: rgba(53, 89, 109, 0.11);
+  background: #349E38;
 }
 ::selection{
-  background:#b3d4fc;
+  background:#349E38;
+  color:#fff;
   text-shadow:none;
 }
 
@@ -43,13 +44,17 @@ ul{
 }
 
 .javascript_adding_path{
-  border: 2px solid #E8EEF1;
+  border: 2px solid #0A7A00;
   padding: 5px 0;
   margin: 9px 0;
-  outline: #09F;
-  color: #022C47;
+  outline: #0A7A00;
+  color: #022C47;;
+  background: #032400;
 }
 
+.dev_messages{
+  color: #E8EEE8;
+}
 .messages{height:300px;}
 
 button{
@@ -57,7 +62,7 @@ button{
   text-transform: uppercase;
   font-weight: bold;
   color: #FFF;
-  background: #526E9C;
+  background: #00C02E;
   border: 0;
   border-radius: 3px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -66,7 +71,7 @@ button{
 }
   button:hover{
     box-shadow: none;
-    background: #5D81BD;
+    background: #00CE00;
   }
 
 .icon{
@@ -111,7 +116,7 @@ button{
     margin-left: 74px;
   }
 .the_properties{
-  background: #002E04 !important
+  background: #000 !important
 }
   .the_properties a{
     color: #fff;
@@ -119,15 +124,15 @@ button{
 #the_source{background-color: #777;}
 
 .ui-layout-pane{
-  border: 1px solid #1D3B69
+  border: 1px solid #1D6920;
 }
 
 .ui-layout-toggler{
   transition: 0.33s;
-  background: #526E9C;
+  background: #349E38;
 }
   .ui-layout-toggler:hover{
-    background: #5D81BD !important;
+    background: #00C207 !important;
   }
 .ui-layout-resizer{
   background: #000;
